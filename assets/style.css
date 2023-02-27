@@ -13,8 +13,8 @@ body {
 }
 
 header {
-	background-color: #333;
-	color: #fff;
+	background-color: #ffffff;
+	color: #050505;
 	padding: 20px;
 }
 
@@ -22,11 +22,16 @@ nav ul {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
+	font-size: 150%;
+	font-family: ui-rounded;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 nav a {
-	color: #fff;
+	color: #050505;
 	text-decoration: none;
+	
 }
 
 main {
@@ -36,13 +41,15 @@ main {
 section {
 	margin-bottom: 50px;
 }
-
+img{
+	width: 40%;
+}
 h1, h2 {
 	margin-bottom: 20px;
 }
 
 .fade-in {
-	opacity: 0;
+	opacity: 1;
 	transition: opacity 0.8s ease-in-out;
 }
 
@@ -54,4 +61,17 @@ footer {
 	background-color: #eee;
 	padding: 20px;
 	text-align: center;
+}
+div{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.motto{
+	font-size: 80%;
+}
+.caption{
+	font-size: 60%;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+.aboutm{
+	font-size: 80%;
 }
