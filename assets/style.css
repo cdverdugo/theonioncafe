@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	margin: 0;
+	margin: 5;
 	padding: 0;
 }
 
@@ -15,14 +15,14 @@ body {
 header {
 	background-color: #ffffff;
 	color: #050505;
-	padding: 20px;
+	padding: 10px;
 }
 
 nav ul {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
-	font-size: 150%;
+	font-size: 80%;
 	font-family: ui-rounded;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -35,14 +35,14 @@ nav a {
 }
 
 main {
-	padding: 50px;
+	padding: 10px;
 }
 
 section {
 	margin-bottom: 50px;
 }
 img{
-	width: 40%;
+	width: 15%;
 }
 h1, h2 {
 	margin-bottom: 20px;
@@ -66,12 +66,23 @@ div{
 	font-family: Brush Script MT, Brush Script Std, cursive;
 }
 .motto{
-	font-size: 80%;
+	font-size: 100%;
+	margin-top: -5%;
 }
 .caption{
-	font-size: 60%;
+	font-size: 50%;
 	font-family: 'Helvetica Neue', sans-serif;
+	margin-top: -5%;
 }
 .aboutm{
 	font-size: 80%;
+}
+.wwab{
+	font-size: 150%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.barista{
+	margin-top: 10%;
+	width: 100%;
 }
