@@ -1,0 +1,94 @@
+head{
+    font-size: 200%;
+    margin-bottom: 30%;
+}
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 30%;
+	line-height: 1.5;
+	text-align: center;
+	font-size: 100%;
+    color: #030303;
+	margin-top: 15%;
+	background-color: #ffffff77;
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+p{
+    font-size: 100%;
+    margin: 0%;
+}
+
+.card {
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2);
+    width:  25%;
+    height: 100%;
+    text-align: center;
+    font-family: arial;
+    background-color: #ffffff;
+    margin: auto;
+
+    margin-bottom: 20%;
+  }
+  img[alt*="Onion"] {
+    width: 50%;
+    height: 100%;
+ }
+
+ h1{
+    height: 10%;
+    font-size: 200%;
+    margin-bottom: 40%;
+ }
+ h2{
+    height: 10%;
+    font-size: 120%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+
+  .card:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: middle; 
+    transform: perspective(3px) translateZ(0.2px);
+    transition-duration: 0.3s; 
+    transition-timing-function: ease-in-out;
+    transition-property: box-shadow, transform;
+
+}
+  .price {
+    color: grey;
+    font-size: 120%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 5%;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 80%;
+    font-weight: 200%;
+}
+  
+.card button:hover {
+    opacity: 0.1;
+    transition-duration: 0.3s; 
+    transition-timing-function: ease-in-out;
+}
+.button {
+    background-color: #8C6D09;
+    color: white;
+    padding: 16px 32px;
+    display:inline-block;
+    margin:4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;	
+}

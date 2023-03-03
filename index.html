@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
-<p class="fade-in.active">
 <head>
 	<title>The Onion Cafe</title>
 	<link rel="stylesheet" href="assets/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <link rel="stylesheet" href="style.css">
+	</head>
 <body>
 	<header>
-		<nav>
-			<div>
-				<img src="assets/img/logo.jpeg" alt="logo">
-			</div>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+		<header class="header">
+			<!-- Logo -->
+			<a href="#" class="logo">The Onion Cafe</a>
+			<nav class="nav">
+			 <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+				<ul class="mobile-menu">
+					<li><a href="header">Home</a></li>
+					<li><a href="menu.html">Menu</a> </li>
+					<li><a href="barista">About</a></li>
+					<li><a href="aboutm">Contact</a></li>
+				</ul>
+				</div>
+			</nav>
+		</header>
 	<main>
 		<section>
 			<div>
-				<p class="motto">"We sell onions or we sell nothing, if you don't like either, you can go fuck off      -Elli (Owner)"</p>
+				<p class="motto">"We make onions or we make nothing, if you don't like either, you can go fuck off      -Elli (Owner)"</p>
 			</div>
 		</section>
 		<section>
