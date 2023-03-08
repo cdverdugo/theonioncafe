@@ -15,11 +15,14 @@ body {
 	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
 	
 }
+main{
+  margin-top: 50%;
+}
 .logo{
-	font-size: 200%;
+	font-size: 150%;
 	text-decoration: none;
 	color: #000000;
-	position: sticky;
+	position: absolute;
 }
 
 nav ul {
@@ -44,7 +47,7 @@ section {
 	margin-bottom: 50px;
 }
 img{
-	width: 40%;
+	width: 20%;
 }
 h1, h2 {
 	margin-bottom: 20px;
@@ -83,7 +86,7 @@ div{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
   font-family: 'Helvetica Neue', sans-serif;
@@ -169,4 +172,111 @@ div{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 70%;
+  position: absolute;
+  height: 100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  
+}
+.nav a{
+  color: #8d8a8a;
+  margin-left: 60%;
+  height: 100%;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(24, 23, 23);
+  text-decoration: none;
+  font-size: 120%;
+  display: block;
+  margin-left: 0%;
+  margin-top: 0%;
+  
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #c5b6b6;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+.fa{
+  position: absolute;
+  margin-top: -64%;  
+  margin-left: -45%;
+}
+.logot{
+  margin-left: 0%;
+  margin-top: -15%;
+
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
 }
