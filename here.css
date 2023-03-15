@@ -14,8 +14,9 @@ p{
     font-weight: bold;
     padding: 5%;
     border-radius: 5%;
-    background: rgb(240,167,255);
-    background: linear-gradient(304deg, rgba(240, 201, 247, 0.788) 35%, rgba(163, 220, 250, 0.575) 100%);
+    background: rgb(216, 216, 216);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -58,4 +59,6 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.2);
+
   }
